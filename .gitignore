@@ -1,0 +1,47 @@
+# Виртуальное окружение
+.venv/
+venv/
+env/
+
+# Кэш Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Файлы IDE
+.idea/
+.vscode/
+
+# Данные экспериментов
+data/
+results/
+
+# Логи
+*.log
+logs/
+
+# Временные и системные файлы
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+
+# Переменные окружения и секреты
+.env
+.env.*
+!.env.example
+
+# Ноутбуки Jupyter
+.ipynb_checkpoints/
+
+# Сгенерированные графики и отчеты
+plots/
+figures/
+reports/
+
+# Модели и большие файлы
+*.pt
+*.pth
+*.bin
+*.ckpt
+*.safetensors
